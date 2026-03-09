@@ -8,8 +8,8 @@ const navLinks = [
   {
     label: 'Product',
     children: [
-      { label: 'Core Engine',   href: '/#features',     desc: 'Hybrid semantic routing in Rust' },
-      { label: 'Runtime',       href: '/#features',     desc: 'TCFP execution with semantic caching' },
+      { label: 'Core Engine',   href: '/#features',                                                          desc: 'Hybrid semantic routing in Rust' },
+      { label: 'Runtime',       href: 'https://github.com/inteleion-ai/stratarouter-runtime', desc: 'TCFP execution with semantic caching', external: true },
       { label: 'Architecture',  href: '/#architecture', desc: '3-layer platform overview' },
       { label: 'Benchmarks',    href: '/#benchmarks',   desc: 'Performance vs alternatives' },
     ],
